@@ -7,7 +7,7 @@ __version__ = open(join(dirname(__file__), "common", "__version__")).read().stri
 install_requires = [line.strip() for line in open("requirements.txt", "r").readlines()]
 
 setup(
-    name="common",
+    name="bitbot-common",
     version=__version__,
     description="Bitbot Common package utils",
     author="James McDonald",
