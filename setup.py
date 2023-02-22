@@ -13,6 +13,6 @@ setup(
     author="James McDonald",
     author_email="j4mesmcdonald@gmail.com",
     install_requires=install_requires,
-    packages="common common.httpx common.persist".split(),
+    packages="common".split(),
     include_package_data=True,
 )
