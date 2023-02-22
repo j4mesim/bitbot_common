@@ -15,6 +15,6 @@ setup(
     author="James McDonald",
     author_email="j4mesmcdonald@gmail.com",
     install_requires=install_requires,
-    packages="bitbot.common".split(),
+    packages="bitbot_common".split(),
     include_package_data=True,
 )
