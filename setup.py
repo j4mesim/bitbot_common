@@ -3,7 +3,7 @@ from os.path import join, dirname
 from setuptools import setup
 
 __version__ = (
-    open(join(dirname(__file__), "bitbot", "common", "__version__")).read().strip()
+    open(join(dirname(__file__), "bitbot_common", "__version__")).read().strip()
 )
 
 install_requires = [line.strip() for line in open("requirements.txt", "r").readlines()]
