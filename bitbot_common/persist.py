@@ -2,7 +2,7 @@ import msgpack
 import json
 import numbers
 import numpy as np
-from _utils.base import unpack_dict, repack_dict
+from bitbot_common.base import unpack_dict, repack_dict
 
 
 def _son_dump(d):
