@@ -1,2 +1,3 @@
 httpx
 msgpack
+numpy
