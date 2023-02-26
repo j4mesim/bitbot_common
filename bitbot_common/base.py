@@ -1,7 +1,10 @@
+import collections
+
 
 def unpack_dict(
     d, recursive=True, include=None, keep_empty_dicts=True, return_as_dict=False
 ):
+
     """
     Unpacking nested dictionaries into flat lists of keys, values
 
@@ -16,7 +19,6 @@ def unpack_dict(
     keys: list of list of nested keys
     values: values from nested dict d.
     """
-
     keys = []
     values = []
     for k, v in d.items():
